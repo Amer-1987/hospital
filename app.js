@@ -14,7 +14,7 @@ alert("في الوقت الحالي نملك عقدا مع المستشفى ال
 var numofpic = prompt("سأعرض عليك صورة المستشفى , كم مرة تود رؤية ذلك؟")
 numofpic=parseInt(numofpic)
 
-for (var y=0; y<=numofpic; y++){ 
+for (var y=1; y<=numofpic; y++){ 
   document.write( "<section>" + "<h3>" + "خاص" + "<img src='http://alrai.com/uploads/images/2020/04/08/220691.jpg'>"+ "</section>")
 }
 
