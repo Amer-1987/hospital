@@ -1,13 +1,130 @@
-/* Three image containers (use 25% for four, and 50% for two, etc) */
-.column {
-  float: left;
-  width: 33.33%;
-  padding: 5px;
+
+body{
+background-color: lightgray;
+ margin: 20;
+ text-decoration: none;
+
 }
 
-/* Clear floats after image containers */
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
+header{
+    background-color:aliceblue;
+    height: 240px;
+    padding-bottom: 20%;
+
+}
+h1{
+  float: left;
+  height: 200px ;
+  margin-left: 100px;
+  margin-top: 80px;
+
+
+}
+nav{
+  float:right;
+  margin-right: 80px ;
+}
+
+ul{
+     text-align: center;
+
+  margin-top: 20px;
+
+}
+li{
+  display: inline-block;
+  padding-left: 100px;
+}
+
+li a{
+  text-decoration: none;
+}
+.first{
+  /*background-color:rgb(20, 240, 86);*/
+     text-align: center;
+  margin: 0px;
+  margin-top: 5px;
+  padding: 20px;
+  padding-top: 5px;
+  height: 850px;
+  width: 100%;
+}
+
+
+.row{
+   text-align: center;
+
+ background-color:rgb(125, 142, 197);
+  padding: 20px;
+  height: 500px;
+  width: 100%; 
+}
+
+
+/*.second{
+  background-color:rgb(240, 146, 185);
+  padding: 20px;
+  height: 160px;
+  width: 100%;
+}
+
+.third{
+   text-decoration: none;
+   background-color: yellow;
+    /*padding-top: 10px;
+   padding-bottom: 10px;
+   height: 70px;
+   width: 100%;
+   margin-top: 10px;
+   margin-bottom: 10px;
+*/
+
+.fourth{
+   text-align: center;
+   background-color: aliceblue;
+   padding: 20px;
+    margin: 5px;
+   height: 740px;
+   width: 100%;
+}
+
+.column a{
+    text-decoration: none;
+
+}
+
+.fifth{
+  background-color:rgb(216, 235, 247);
+  padding: 20px;
+  height: 600px;
+  width: 100%;
+} 
+
+
+/*.tab{
+   background-color: rgb(252, 240, 82);
+     padding: 25px;
+    margin: 20;
+   height: 70px;
+   width: 50%;
+}*/
+
+.tabcontent a{
+   text-decoration: none;
+
+}
+
+
+/*
+.sixth.{
+  background-color:rgb(218, 161, 38);
+  padding: 20px;
+  height: 160px;
+  width: 100%; 
+}
+
+/* div{
+height: 100px;
+width: 100% ;
+ /* background-color: red;
 }
