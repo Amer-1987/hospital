@@ -17,8 +17,12 @@ for (var z = 0;  z < num ; z++) {
 
   document.write("<img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlKCyeFxbMH8Bx__bkwMfAlXvIAvc_0_duoQ&usqp=CAU' >")
 }
-
 }
+for (var y=1; y<=numofpic; y++){ 
+  document.write( "<section>" + "<h3>" + "خاص" + "<img src='http://alrai.com/uploads/images/2020/04/08/220691.jpg'>"+ "</section>")
+}
+
+
 
 
 
@@ -52,4 +56,3 @@ else if (DesiredHospital == "مستشفى الجامعه الاردنيه") {
   document.write("<p>" + "أهلا وسهلا سنكون سعيدين بتقديم الخدمة" + "</p>")
   alert(" أهلا و سهلا سنكون سعيدين بتقديم الخدمة , طبعا بعيد الشر عنك")
 }
-
